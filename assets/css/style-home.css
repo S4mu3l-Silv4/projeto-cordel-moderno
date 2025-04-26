@@ -119,6 +119,14 @@ footer {
     transition: all 0.4s ease;
 }
 
+/* Versão mobile */
+@media (max-width: 768px) {
+    footer {
+        padding: 5px;
+        transition: all 0.4s ease;
+    }
+}
+
 footer a {
     color: var(--branco);
     transition: all 0.6s ease;
@@ -128,12 +136,4 @@ footer a:hover {
     color: var(--cinza-escuro);
     font-size: 1.1em;
     transition: all 0.6s ease;
-}
-
-/* Versão mobile */
-@media (max-width: 768px) {
-    footer {
-        padding: 5px;
-        transition: all 0.4s ease;
-    }
 }
