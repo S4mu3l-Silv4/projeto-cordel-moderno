@@ -14,8 +14,8 @@
 /* Variáveis */
 :root {
     --branco: #ffffff;
-    --cinza-escuro: #a9a9a9;
-    --cinza-mais-escuro: #696969;
+    --cinza-claro: #a9a9a9;
+    --cinza-escuro: #696969;
     --fonte-conteudo: 'Sriracha', cursive;
     --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
     --fonte-titulos: 'Passion One', cursive;
@@ -25,7 +25,7 @@
 
 /* Versão desktop */
 body {
-    background-color: var(--cinza-escuro);
+    background-color: var(--cinza-claro);
     font-family: var(--fonte-padrao);
     min-height: 100vh;
 }
@@ -82,7 +82,7 @@ section > p {
 
 section.background {
     background-attachment: fixed;
-    background-color: var(--cinza-mais-escuro);
+    background-color: var(--cinza-escuro);
     box-shadow: inset 6px 6px 13px 0px var(--preto);
     color: var(--branco);
     text-align: center;
@@ -133,7 +133,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--cinza-escuro);
+    color: var(--cinza-claro);
     font-size: 1.1em;
     transition: all 0.6s ease;
 }
