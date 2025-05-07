@@ -62,7 +62,7 @@ header a, footer a {
 
 header a:hover {
     text-decoration: underline;
-    transition: all 0.4s ease;
+    transition: 0.4s ease;
 }
 
 section {
@@ -94,14 +94,14 @@ section#background1 {
     background-image: url('../imgs/background-1.jpg');
     background-position: right center;
     background-size: cover;
-    transition: all 0.4s ease;
+    transition: 0.4s ease;
 }
 
 section#background2 {
     background-image: url('../imgs/background-2.jpg');
     background-position: right center;
     background-size: cover;
-    transition: all 0.4s ease;
+    transition: 0.4s ease;
 }
 
 section.background > p {
@@ -118,24 +118,24 @@ footer {
     letter-spacing: 0.7px;
     padding: 10px;
     text-align: center;
-    transition: all 0.4s ease;
+    transition: 0.4s ease;
 }
 
 /* Versão mobile */
 @media (max-width: 768px) {
     footer {
         padding: 5px;
-        transition: all 0.4s ease;
+        transition: 0.4s ease;
     }
 }
 
 footer a {
     color: var(--branco);
-    transition: all 0.6s ease;
+    transition: 0.6s ease;
 }
 
 footer a:hover {
     color: var(--cinza-claro);
     font-size: 1.1em;
-    transition: all 0.6s ease;
+    transition: 0.6s ease;
 }
