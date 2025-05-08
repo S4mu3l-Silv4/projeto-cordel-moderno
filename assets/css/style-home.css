@@ -45,7 +45,8 @@ header > h1 {
 
 .navbar {
     background-color: var(--preto);
-    padding: 8px;
+    box-shadow: 3px 3px 3px 10px var(--preto);
+    padding: 4px;
     position: fixed;
     top: 0;
     transition: top 0.4s ease;
