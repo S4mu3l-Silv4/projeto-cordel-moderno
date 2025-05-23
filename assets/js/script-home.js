@@ -1,16 +1,16 @@
-// Navbar com scroll inteligente:
+// Nav bar com scroll inteligente:
 
-let lastScrollTop = 0
-const navbar = document.getElementById("navbar")
+let ultimoScrollTop = 0
+const navBar = document.getElementById("nav-bar")
 
 window.addEventListener("scroll", function () {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop
 
-    if (scrollTop > lastScrollTop) {
-        navbar.style.top = "-70px"
+    if (scrollTop > ultimoScrollTop) {
+        navBar.style.top = "-55px"
     } else {
-        navbar.style.top = "0"
+        navBar.style.top = "0"
     }
 
-    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop
+    ultimoScrollTop = scrollTop <= 0 ? 0 : scrollTop
 })
