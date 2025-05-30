@@ -1,142 +1,142 @@
 @charset "UTF-8";
 
 /* Reset */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
 
 /* Tipografia */
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 /* Variáveis */
-:root {
-    --branco: #ffffff;
-    --cinza-claro: #a9a9a9;
-    --cinza-escuro: #696969;
-    --fonte-conteudo: 'Sriracha', cursive;
-    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte-titulos: 'Passion One', cursive;
-    --preto: #000000;
-    --preto-transparente: #00000034;
-}
+    :root {
+        --branco: #ffffff;
+        --cinza-claro: #a9a9a9;
+        --cinza-escuro: #696969;
+        --fonte-conteudo: 'Sriracha', cursive;
+        --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+        --fonte-titulos: 'Passion One', cursive;
+        --preto: #000000;
+        --preto-transparente: #00000034;
+    }
 
 /* Versão desktop */
-body {
-    background-color: var(--cinza-claro);
-    font-family: var(--fonte-padrao);
-    min-height: 100vh;
-}
+    body {
+        background-color: var(--cinza-claro);
+        font-family: var(--fonte-padrao);
+        min-height: 100vh;
+    }
 
-header {
-    background-color: var(--preto);
-    color: var(--branco);
-    text-align: center;
-}
+    header {
+        background-color: var(--preto);
+        color: var(--branco);
+        text-align: center;
+    }
 
-header > h1 {
-    font-family: var(--fonte-titulos);
-    font-size: 3.0em;
-    font-variant: small-caps;
-    padding-top: 50px;
-}
+    header > h1 {
+        font-family: var(--fonte-titulos);
+        font-size: 3.0em;
+        font-variant: small-caps;
+        padding-top: 50px;
+    }
 
-.nav-bar {
-    background-color: var(--preto);
-    box-shadow: 3px 3px 3px 10px var(--preto);
-    padding: 4px;
-    position: fixed;
-    top: 0;
-    transition: top 0.4s ease;
-    width: 100%;
-    z-index: 1;
-}
+    .nav-bar {
+        background-color: var(--preto);
+        box-shadow: 3px 3px 3px 10px var(--preto);
+        padding: 4px;
+        position: fixed;
+        top: 0;
+        transition: top 0.4s ease;
+        width: 100%;
+        z-index: 1;
+    }
 
-header a, footer a {
-    color: var(--branco);
-    font-weight: bolder;
-    text-decoration: none;
-    transition: all 0.4s ease;
-}
+    header a, footer a {
+        color: var(--branco);
+        font-weight: bolder;
+        text-decoration: none;
+        transition: all 0.4s ease;
+    }
 
-header a:hover {
-    text-decoration: underline;
-    transition: 0.4s ease;
-}
-
-section {
-    font-family: var(--fonte-conteudo);
-    line-height: 2.0em;
-    padding-bottom: 10vh;
-    padding-left: 30px;
-    padding-top: 10vh;
-}
-
-section.padrao {
-    background-color: var(--branco);
-    color: var(--preto);
-}
-
-section > p {
-    padding-bottom: 2em;
-}
-
-section.background {
-    background-attachment: fixed;
-    background-color: var(--cinza-escuro);
-    box-shadow: inset 6px 6px 13px 0px var(--preto);
-    color: var(--branco);
-    text-align: center;
-}
-
-section#background1 {
-    background-image: url('../imgs/background-1.jpg');
-    background-position: right center;
-    background-size: cover;
-    transition: 0.4s ease;
-}
-
-section#background2 {
-    background-image: url('../imgs/background-2.jpg');
-    background-position: right center;
-    background-size: cover;
-    transition: 0.4s ease;
-}
-
-section.background > p {
-    background-color: var(--preto-transparente);
-    padding-top: 15px;
-    text-shadow: 1px 1px 0px var(--preto);
-    width: 210px;
-}
-
-footer {
-    background-color: var(--preto);
-    color: var(--branco);
-    font-size: 0.8em;
-    letter-spacing: 0.7px;
-    padding: 10px;
-    text-align: center;
-    transition: 0.4s ease;
-}
-
-/* Versão mobile */
-@media (max-width: 768px) {
-    footer {
-        padding: 5px;
+    header a:hover {
+        text-decoration: underline;
         transition: 0.4s ease;
     }
-}
 
-footer a {
-    color: var(--branco);
-    transition: 0.6s ease;
-}
+    section {
+        font-family: var(--fonte-conteudo);
+        line-height: 2.0em;
+        padding-bottom: 10vh;
+        padding-left: 30px;
+        padding-top: 10vh;
+    }
 
-footer a:hover {
-    color: var(--cinza-claro);
-    font-size: 1.1em;
-    transition: 0.6s ease;
-}
+    section.padrao {
+        background-color: var(--branco);
+        color: var(--preto);
+    }
+
+    section > p {
+        padding-bottom: 2em;
+    }
+
+    section.background {
+        background-attachment: fixed;
+        background-color: var(--cinza-escuro);
+        box-shadow: inset 6px 6px 13px 0px var(--preto);
+        color: var(--branco);
+        text-align: center;
+    }
+
+    section#background1 {
+        background-image: url('../imgs/background-1.jpg');
+        background-position: right center;
+        background-size: cover;
+        transition: 0.4s ease;
+    }
+
+    section#background2 {
+        background-image: url('../imgs/background-2.jpg');
+        background-position: right center;
+        background-size: cover;
+        transition: 0.4s ease;
+    }
+
+    section.background > p {
+        background-color: var(--preto-transparente);
+        padding-top: 15px;
+        text-shadow: 1px 1px 0px var(--preto);
+        width: 210px;
+    }
+
+    footer {
+        background-color: var(--preto);
+        color: var(--branco);
+        font-size: 0.8em;
+        letter-spacing: 0.7px;
+        padding: 10px;
+        text-align: center;
+        transition: 0.4s ease;
+    }
+
+    /* Versão mobile */
+    @media (max-width: 768px) {
+        footer {
+            padding: 5px;
+            transition: 0.4s ease;
+        }
+    }
+
+    footer a {
+        color: var(--branco);
+        transition: 0.6s ease;
+    }
+
+    footer a:hover {
+        color: var(--cinza-claro);
+        font-size: 1.1em;
+        transition: 0.6s ease;
+    }
