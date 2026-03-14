@@ -1,6 +1,6 @@
 # Projeto Cordel Moderno:
 
-  Este projeto foi desenvolvido como um projeto pessoal, objetivando praticar e demonstrar as minhas habilidades em HTML, CSS e JavaScript.
+  Este projeto foi desenvolvido como um aprimoramento pessoal, objetivando praticar e demonstrar as minhas habilidades em HTML, CSS e JavaScript.
   <br>
   <br>
 ## Site no ar:
